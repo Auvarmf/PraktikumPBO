@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="praktikum15.OutputController">
+   <children>
+      <Label layoutX="224.0" layoutY="39.0" text="Data Mahasiswa" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="132.0" text="NPM" />
+      <Label layoutX="49.0" layoutY="192.0" text="Nama Lengkap" />
+      <Label layoutX="49.0" layoutY="251.0" text="Alamat" />
+      <Label fx:id="soutNpm" layoutX="181.0" layoutY="132.0" text="NPM" />
+      <Label fx:id="soutNama" layoutX="181.0" layoutY="192.0" text="Nama Lengkap" />
+      <Label fx:id="soutAlamat" layoutX="181.0" layoutY="251.0" text="Alamat" />
+      <Button fx:id="btnNew" layoutX="509.0" layoutY="329.0" mnemonicParsing="false" onAction="#openForm" text="Data Baru" />
+   </children>
+</AnchorPane>
